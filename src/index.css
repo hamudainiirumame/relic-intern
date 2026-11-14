@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* 色はすべてここで管理。ライト／ダークの両方に対応 */
+  :root {
+    color-scheme: light;
+    --paper: 247 248 250;
+    --surface: 255 255 255;
+    --track: 234 238 244;
+    --ink: 31 35 40;
+    --ink-soft: 87 96 106;
+    --ink-faint: 140 149 159;
+    --rule: 220 227 238;
+    --brand: 47 95 208;
+    --brand-dark: 36 75 168;
+    --brand-tint: 232 238 251;
+    --on-brand: 255 255 255;
+    --caution: 232 131 58;
+    --caution-tint: 253 240 230;
+    --caution-dark: 179 90 23;
+    --done: 46 158 91;
+    --done-tint: 229 245 235;
+    --notebook-line: 238 242 248;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --paper: 21 24 29;
+      --surface: 30 34 41;
+      --track: 44 50 60;
+      --ink: 230 234 239;
+      --ink-soft: 164 173 184;
+      --ink-faint: 118 127 138;
+      --rule: 54 61 72;
+      --brand: 122 160 248;
+      --brand-dark: 150 182 252;
+      --brand-tint: 36 49 82;
+      --on-brand: 14 20 34;
+      --caution: 240 156 96;
+      --caution-tint: 66 44 28;
+      --caution-dark: 248 186 140;
+      --done: 92 196 132;
+      --done-tint: 27 56 40;
+      --notebook-line: 36 41 49;
+    }
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    font-feature-settings: "palt" 1;
+  }
+}
+
+/* 大学ノートの横罫。時間割グリッドの背景にだけ使う */
+.notebook {
+  background-image: repeating-linear-gradient(to bottom, transparent 0 15px, rgb(var(--notebook-line)) 15px 16px);
+}
+
+/* トップの見本：セルが一つずつ埋まる（ページを開いたときの一度だけ） */
+@keyframes preview-pop {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: none; }
+}
+.preview-pop {
+  animation: preview-pop 320ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 1ms !important;
+  }
+}
