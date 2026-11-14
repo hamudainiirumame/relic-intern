@@ -1,0 +1,924 @@
+[
+  {
+    "id": "c001",
+    "code": "11201",
+    "name": "商学入門",
+    "teacher": "青木 透",
+    "term": "前期",
+    "day": "月",
+    "period": 2,
+    "credits": 2,
+    "category": "学部基礎科目",
+    "target_years": [
+      1
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験70%・小レポート30%",
+    "summary": "商学部で学ぶ分野の全体像をつかむ入門講義。",
+    "interest_tags": [
+      "マーケティング",
+      "経営戦略"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 14,
+    "crobas_comments": [
+      "範囲が広いけど講義資料が丁寧",
+      "試験はノート持ち込み不可で暗記多め"
+    ]
+  },
+  {
+    "id": "c002",
+    "code": "12302",
+    "name": "会計学入門",
+    "teacher": "石川 葉子",
+    "term": "前期",
+    "day": "火",
+    "period": 3,
+    "credits": 2,
+    "category": "学部基礎科目",
+    "target_years": [
+      1
+    ],
+    "attendance_required": true,
+    "textbook_required": true,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験60%・課題20%・出席20%",
+    "summary": "簿記の基礎から財務諸表の読み方まで。",
+    "interest_tags": [
+      "会計"
+    ],
+    "crobas_grade": "C",
+    "crobas_review_count": 11,
+    "crobas_comments": [
+      "教科書必須。毎回の課題が重い",
+      "出席を毎回取る"
+    ]
+  },
+  {
+    "id": "c003",
+    "code": "23103",
+    "name": "経済学の基礎",
+    "teacher": "上田 誠",
+    "term": "後期",
+    "day": "水",
+    "period": 1,
+    "credits": 2,
+    "category": "学部基礎科目",
+    "target_years": [
+      1
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "期末試験80%・課題20%",
+    "summary": "ミクロとマクロの基本的な考え方を学ぶ。",
+    "interest_tags": [
+      "ファイナンス"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 9,
+    "crobas_comments": [
+      "1限だけど資料持ち込み可で助かる"
+    ]
+  },
+  {
+    "id": "c004",
+    "code": "14204",
+    "name": "英語コミュニケーションⅠ",
+    "teacher": "Smith, J.",
+    "term": "前期",
+    "day": "木",
+    "period": 2,
+    "credits": 1,
+    "category": "外国語科目",
+    "target_years": [
+      1
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "授業参加50%・発表50%",
+    "summary": "少人数で話す練習を中心にした英語の授業。",
+    "interest_tags": [
+      "国際ビジネス"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 20,
+    "crobas_comments": [
+      "発表さえやれば大丈夫",
+      "欠席は3回まで"
+    ]
+  },
+  {
+    "id": "c005",
+    "code": "24205",
+    "name": "英語コミュニケーションⅡ",
+    "teacher": "Smith, J.",
+    "term": "後期",
+    "day": "木",
+    "period": 2,
+    "credits": 1,
+    "category": "外国語科目",
+    "target_years": [
+      1
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "授業参加50%・発表50%",
+    "summary": "Ⅰの続き。ディスカッションが増える。",
+    "interest_tags": [
+      "国際ビジネス"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 16,
+    "crobas_comments": [
+      "Ⅰと同じ雰囲気でゆるい"
+    ]
+  },
+  {
+    "id": "c006",
+    "code": "25306",
+    "name": "統計学入門",
+    "teacher": "太田 涼",
+    "term": "後期",
+    "day": "金",
+    "period": 3,
+    "credits": 2,
+    "category": "学部基礎科目",
+    "target_years": [
+      1,
+      2
+    ],
+    "attendance_required": false,
+    "textbook_required": true,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験100%",
+    "summary": "記述統計から仮説検定までの基礎。",
+    "interest_tags": [
+      "ファイナンス",
+      "データ分析"
+    ],
+    "crobas_grade": "D",
+    "crobas_review_count": 13,
+    "crobas_comments": [
+      "試験一発勝負で落とす人多い",
+      "教科書の演習問題をやらないと厳しい"
+    ]
+  },
+  {
+    "id": "c007",
+    "code": "15407",
+    "name": "情報リテラシー",
+    "teacher": "加藤 美咲",
+    "term": "前期",
+    "day": "金",
+    "period": 4,
+    "credits": 2,
+    "category": "基幹教育科目",
+    "target_years": [
+      1
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "課題100%",
+    "summary": "表計算やプレゼンなど大学で使うITスキル。",
+    "interest_tags": [
+      "データ分析"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 22,
+    "crobas_comments": [
+      "課題を出せば取れる"
+    ]
+  },
+  {
+    "id": "c008",
+    "code": "21408",
+    "name": "哲学への招待",
+    "teacher": "木村 聡",
+    "term": "後期",
+    "day": "月",
+    "period": 4,
+    "credits": 2,
+    "category": "基幹教育科目",
+    "target_years": [
+      1,
+      2
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "レポート100%",
+    "summary": "身近な問いから哲学的に考える練習。",
+    "interest_tags": [],
+    "crobas_grade": "A",
+    "crobas_review_count": 18,
+    "crobas_comments": [
+      "レポート1本だけ",
+      "内容も面白い"
+    ]
+  },
+  {
+    "id": "c009",
+    "code": "13309",
+    "name": "マーケティング論",
+    "teacher": "工藤 理沙",
+    "term": "前期",
+    "day": "水",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      2,
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "期末試験60%・リアクションペーパー40%",
+    "summary": "4Pや消費者理解など、マーケティングの基本枠組み。",
+    "interest_tags": [
+      "マーケティング"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 25,
+    "crobas_comments": [
+      "事例が多くて面白い",
+      "リアぺを毎回書く"
+    ]
+  },
+  {
+    "id": "c010",
+    "code": "12210",
+    "name": "経営学総論",
+    "teacher": "小林 健",
+    "term": "前期",
+    "day": "火",
+    "period": 2,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      2,
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験100%",
+    "summary": "組織と戦略の基礎理論を学ぶ。",
+    "interest_tags": [
+      "経営戦略"
+    ],
+    "crobas_grade": "C",
+    "crobas_review_count": 19,
+    "crobas_comments": [
+      "暗記量が多い"
+    ]
+  },
+  {
+    "id": "c011",
+    "code": "21211",
+    "name": "消費者行動論",
+    "teacher": "工藤 理沙",
+    "term": "後期",
+    "day": "月",
+    "period": 2,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "レポート60%・小テスト40%",
+    "summary": "人がなぜそれを買うのかを心理学の知見から考える。",
+    "interest_tags": [
+      "マーケティング"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 17,
+    "crobas_comments": [
+      "身近な話が多くて興味が持てる",
+      "小テストは授業を聞いていれば解ける"
+    ]
+  },
+  {
+    "id": "c012",
+    "code": "22312",
+    "name": "ブランド戦略論",
+    "teacher": "中村 紗希",
+    "term": "後期",
+    "day": "火",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "グループ発表50%・レポート30%・出席20%",
+    "summary": "実在ブランドを題材に、ブランドの作り方をグループで考える。",
+    "interest_tags": [
+      "マーケティング",
+      "経営戦略"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 8,
+    "crobas_comments": [
+      "グループワークがしんどい人には不向き",
+      "発表は楽しい"
+    ]
+  },
+  {
+    "id": "c013",
+    "code": "24413",
+    "name": "広告論",
+    "teacher": "西田 光",
+    "term": "後期",
+    "day": "木",
+    "period": 4,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験70%・課題30%",
+    "summary": "広告の効果測定とメディアの変化を扱う。",
+    "interest_tags": [
+      "マーケティング"
+    ],
+    "crobas_grade": "C",
+    "crobas_review_count": 6,
+    "crobas_comments": [
+      "試験はやや難しい"
+    ]
+  },
+  {
+    "id": "c014",
+    "code": "23214",
+    "name": "財務会計論",
+    "teacher": "石川 葉子",
+    "term": "後期",
+    "day": "水",
+    "period": 2,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": true,
+    "textbook_required": true,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験70%・課題30%",
+    "summary": "企業の財務報告の仕組みと会計基準を学ぶ。",
+    "interest_tags": [
+      "会計"
+    ],
+    "crobas_grade": "D",
+    "crobas_review_count": 12,
+    "crobas_comments": [
+      "教科書必須で毎回使う",
+      "資格を目指す人向け"
+    ]
+  },
+  {
+    "id": "c015",
+    "code": "25215",
+    "name": "管理会計論",
+    "teacher": "橋本 学",
+    "term": "後期",
+    "day": "金",
+    "period": 2,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "期末試験50%・課題50%",
+    "summary": "社内の意思決定に使う会計。原価計算や予算管理。",
+    "interest_tags": [
+      "会計",
+      "経営戦略"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 10,
+    "crobas_comments": [
+      "電卓と資料持ち込み可",
+      "課題を出していればなんとかなる"
+    ]
+  },
+  {
+    "id": "c016",
+    "code": "21316",
+    "name": "コーポレートファイナンス",
+    "teacher": "藤井 亮",
+    "term": "後期",
+    "day": "月",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": true,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験80%・課題20%",
+    "summary": "企業価値の評価と資金調達の考え方。",
+    "interest_tags": [
+      "ファイナンス"
+    ],
+    "crobas_grade": "C",
+    "crobas_review_count": 9,
+    "crobas_comments": [
+      "計算問題が多い",
+      "教科書がないと復習できない"
+    ]
+  },
+  {
+    "id": "c017",
+    "code": "22417",
+    "name": "証券市場論",
+    "teacher": "松本 大輔",
+    "term": "後期",
+    "day": "火",
+    "period": 4,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "レポート100%",
+    "summary": "株式市場の仕組みと投資家の行動。",
+    "interest_tags": [
+      "ファイナンス"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 14,
+    "crobas_comments": [
+      "レポートのみ",
+      "ニュースの見方が変わる"
+    ]
+  },
+  {
+    "id": "c018",
+    "code": "23418",
+    "name": "国際ビジネス論",
+    "teacher": "Lee, M.",
+    "term": "後期",
+    "day": "水",
+    "period": 4,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "発表40%・レポート40%・出席20%",
+    "summary": "海外進出する企業の戦略を事例で学ぶ。",
+    "interest_tags": [
+      "国際ビジネス",
+      "経営戦略"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 7,
+    "crobas_comments": [
+      "英語の資料が少し出る"
+    ]
+  },
+  {
+    "id": "c019",
+    "code": "24219",
+    "name": "経営戦略論",
+    "teacher": "小林 健",
+    "term": "後期",
+    "day": "木",
+    "period": 2,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験70%・リアクションペーパー30%",
+    "summary": "競争優位をどう築くか。代表的な戦略理論を事例で。",
+    "interest_tags": [
+      "経営戦略"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 15,
+    "crobas_comments": [
+      "総論より面白い",
+      "リアぺで出席代わり"
+    ]
+  },
+  {
+    "id": "c020",
+    "code": "25320",
+    "name": "組織行動論",
+    "teacher": "森 恵",
+    "term": "後期",
+    "day": "金",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "レポート50%・小テスト50%",
+    "summary": "職場の人間関係やモチベーションを科学する。",
+    "interest_tags": [
+      "経営戦略"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 11,
+    "crobas_comments": [
+      "就活の自己分析にも使える"
+    ]
+  },
+  {
+    "id": "c021",
+    "code": "21121",
+    "name": "流通システム論",
+    "teacher": "山口 直樹",
+    "term": "後期",
+    "day": "月",
+    "period": 1,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験60%・出席40%",
+    "summary": "小売と物流の仕組みとその変化。",
+    "interest_tags": [
+      "マーケティング"
+    ],
+    "crobas_grade": "C",
+    "crobas_review_count": 5,
+    "crobas_comments": [
+      "1限で出席必須はきつい"
+    ]
+  },
+  {
+    "id": "c022",
+    "code": "23322",
+    "name": "データ分析演習",
+    "teacher": "太田 涼",
+    "term": "後期",
+    "day": "水",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "課題70%・出席30%",
+    "summary": "表計算と簡単なプログラムで実際のデータを分析する。",
+    "interest_tags": [
+      "データ分析",
+      "マーケティング"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 9,
+    "crobas_comments": [
+      "手を動かすので身につく",
+      "課題は毎週ある"
+    ]
+  },
+  {
+    "id": "c023",
+    "code": "24323",
+    "name": "税務会計論",
+    "teacher": "岡田 修",
+    "term": "後期",
+    "day": "木",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": true,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験100%",
+    "summary": "法人税の基本的な考え方と計算。",
+    "interest_tags": [
+      "会計"
+    ],
+    "crobas_grade": "E",
+    "crobas_review_count": 4,
+    "crobas_comments": [
+      "かなり難しい"
+    ]
+  },
+  {
+    "id": "c024",
+    "code": "25124",
+    "name": "ビジネス英語",
+    "teacher": "Brown, K.",
+    "term": "後期",
+    "day": "金",
+    "period": 1,
+    "credits": 1,
+    "category": "外国語科目",
+    "target_years": [
+      2,
+      3,
+      4
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "授業参加60%・課題40%",
+    "summary": "メールや会議など、仕事で使う英語表現。",
+    "interest_tags": [
+      "国際ビジネス"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 10,
+    "crobas_comments": [
+      "出席さえすれば取れる"
+    ]
+  },
+  {
+    "id": "c025",
+    "code": "22225",
+    "name": "現代社会と法",
+    "teacher": "井上 隆",
+    "term": "後期",
+    "day": "火",
+    "period": 2,
+    "credits": 2,
+    "category": "基幹教育科目",
+    "target_years": [
+      2,
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "レポート100%",
+    "summary": "身近なトラブルから法律の考え方を学ぶ。",
+    "interest_tags": [],
+    "crobas_grade": "A",
+    "crobas_review_count": 21,
+    "crobas_comments": [
+      "レポート1本",
+      "話がわかりやすい"
+    ]
+  },
+  {
+    "id": "c026",
+    "code": "24126",
+    "name": "科学と社会",
+    "teacher": "清水 綾",
+    "term": "後期",
+    "day": "木",
+    "period": 1,
+    "credits": 2,
+    "category": "基幹教育科目",
+    "target_years": [
+      2,
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "期末試験50%・小レポート50%",
+    "summary": "科学技術が社会に与える影響を考える。",
+    "interest_tags": [],
+    "crobas_grade": "B",
+    "crobas_review_count": 8,
+    "crobas_comments": []
+  },
+  {
+    "id": "c027",
+    "code": "23527",
+    "name": "ベンチャー企業論",
+    "teacher": "斎藤 匠",
+    "term": "後期",
+    "day": "水",
+    "period": 5,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "レポート70%・リアクションペーパー30%",
+    "summary": "起業家をゲストに招き、事業の立ち上げ方を学ぶ。",
+    "interest_tags": [
+      "経営戦略"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 12,
+    "crobas_comments": [
+      "ゲスト講義が面白い",
+      "5限なのが難点"
+    ]
+  },
+  {
+    "id": "c028",
+    "code": "22528",
+    "name": "専門演習Ⅱ",
+    "teacher": "各担当",
+    "term": "後期",
+    "day": "火",
+    "period": 5,
+    "credits": 2,
+    "category": "演習",
+    "target_years": [
+      3
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "演習への参加",
+    "summary": "ゼミ。担当教員のもとで研究を進める。",
+    "interest_tags": [],
+    "crobas_grade": null,
+    "crobas_review_count": 0,
+    "crobas_comments": []
+  },
+  {
+    "id": "c029",
+    "code": "11329",
+    "name": "消費者心理特論",
+    "teacher": "工藤 理沙",
+    "term": "前期",
+    "day": "月",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み可",
+    "grading": "レポート100%",
+    "summary": "消費者行動論の応用編。",
+    "interest_tags": [
+      "マーケティング"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 6,
+    "crobas_comments": []
+  },
+  {
+    "id": "c030",
+    "code": "12330",
+    "name": "金融論",
+    "teacher": "藤井 亮",
+    "term": "前期",
+    "day": "火",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "持ち込み不可",
+    "grading": "期末試験100%",
+    "summary": "銀行と金融政策の基礎。",
+    "interest_tags": [
+      "ファイナンス"
+    ],
+    "crobas_grade": "C",
+    "crobas_review_count": 9,
+    "crobas_comments": [
+      "試験一発"
+    ]
+  },
+  {
+    "id": "c031",
+    "code": "13231",
+    "name": "原価計算論",
+    "teacher": "橋本 学",
+    "term": "前期",
+    "day": "水",
+    "period": 2,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": true,
+    "exam_materials": "持ち込み可",
+    "grading": "期末試験60%・課題40%",
+    "summary": "製品のコストをどう計算するか。",
+    "interest_tags": [
+      "会計"
+    ],
+    "crobas_grade": "B",
+    "crobas_review_count": 7,
+    "crobas_comments": []
+  },
+  {
+    "id": "c032",
+    "code": "14332",
+    "name": "グローバル経営論",
+    "teacher": "Lee, M.",
+    "term": "前期",
+    "day": "木",
+    "period": 3,
+    "credits": 2,
+    "category": "専門科目",
+    "target_years": [
+      3,
+      4
+    ],
+    "attendance_required": false,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "レポート100%",
+    "summary": "多国籍企業の組織と戦略。",
+    "interest_tags": [
+      "国際ビジネス",
+      "経営戦略"
+    ],
+    "crobas_grade": "A",
+    "crobas_review_count": 8,
+    "crobas_comments": []
+  },
+  {
+    "id": "c033",
+    "code": "12533",
+    "name": "専門演習Ⅰ",
+    "teacher": "各担当",
+    "term": "前期",
+    "day": "火",
+    "period": 5,
+    "credits": 2,
+    "category": "演習",
+    "target_years": [
+      3
+    ],
+    "attendance_required": true,
+    "textbook_required": false,
+    "exam_materials": "試験なし",
+    "grading": "演習への参加",
+    "summary": "ゼミ。文献を読み、研究テーマを決める。",
+    "interest_tags": [],
+    "crobas_grade": null,
+    "crobas_review_count": 0,
+    "crobas_comments": []
+  }
+]

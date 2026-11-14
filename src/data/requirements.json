@@ -1,0 +1,72 @@
+[
+  {
+    "department": "商学科",
+    "category": "基幹教育科目",
+    "min_credits": 20,
+    "max_credits": null,
+    "note": "ダミー値。正式な数字は履修要項で確認して入力する"
+  },
+  {
+    "department": "商学科",
+    "category": "外国語科目",
+    "min_credits": 8,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "商学科",
+    "category": "学部基礎科目",
+    "min_credits": 16,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "商学科",
+    "category": "専門科目",
+    "min_credits": 56,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "商学科",
+    "category": "演習",
+    "min_credits": 8,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "公共経営学科",
+    "category": "基幹教育科目",
+    "min_credits": 20,
+    "max_credits": null,
+    "note": "ダミー値。正式な数字は履修要項で確認して入力する"
+  },
+  {
+    "department": "公共経営学科",
+    "category": "外国語科目",
+    "min_credits": 8,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "公共経営学科",
+    "category": "学部基礎科目",
+    "min_credits": 16,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "公共経営学科",
+    "category": "専門科目",
+    "min_credits": 56,
+    "max_credits": null,
+    "note": "ダミー値"
+  },
+  {
+    "department": "公共経営学科",
+    "category": "演習",
+    "min_credits": 8,
+    "max_credits": null,
+    "note": "ダミー値"
+  }
+]
