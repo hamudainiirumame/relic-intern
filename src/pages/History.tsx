@@ -7,7 +7,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { toast } from "@/components/ui/toast";
 import { CATEGORIES, findCourseByName, toTakenCourses } from "@/lib/catalog";
-import { mockOcr, readTimetableScreenshots } from "@/lib/ai";
+import { AI_MODE, mockOcr, readTimetableScreenshots } from "@/lib/ai";
 import { getProfile, getProgress, listTakenCourses, saveProgress, saveTakenCourses } from "@/lib/repository";
 import { track } from "@/lib/analytics";
 import { cn, uuid } from "@/lib/utils";
@@ -136,6 +136,12 @@ export default function History() {
               <p className="mt-1">月〜金と1〜5限が全部入るように撮ってね。1年前期・1年後期・2年前期…と学期ごとに1枚ずつ。</p>
             </div>
           </div>
+
+          {AI_MODE !== "mock" && (
+            <p className="mt-3 text-[12px] leading-relaxed text-ink-soft">
+              スクショは時間割の読み取りにだけ使い、保存しません（読み取りには Anthropic 社の AI を使います）。
+            </p>
+          )}
 
           <Button variant="ghost" className="mt-4 w-full" onClick={() => runOcr("sample")}>
             <Sparkles />
