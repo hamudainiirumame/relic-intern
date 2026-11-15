@@ -1,5 +1,6 @@
 import coursesJson from "@/data/courses.json";
 import requirementsJson from "@/data/requirements.json";
+import interestsJson from "@/data/interests.json";
 import type { Course, Requirement, TakenCourse } from "@/types";
 import type { OcrCourse } from "./ai";
 import { normalizeName, uuid } from "./utils";
@@ -8,7 +9,7 @@ export const COURSES = coursesJson as Course[];
 export const REQUIREMENTS = requirementsJson as Requirement[];
 export const DEPARTMENTS = [...new Set(REQUIREMENTS.map((r) => r.department))];
 export const CATEGORIES = [...new Set(REQUIREMENTS.map((r) => r.category))];
-export const INTEREST_OPTIONS = ["マーケティング", "会計", "ファイナンス", "経営戦略", "国際ビジネス", "データ分析"];
+export const INTEREST_OPTIONS = interestsJson as string[];
 
 export const courseById = (id: string | null | undefined) => COURSES.find((c) => c.id === id);
 

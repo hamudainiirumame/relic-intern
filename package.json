@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "import:courses": "node scripts/import-courses.mjs",
+    "prebuild": "node scripts/import-courses.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "prebuild:web": "node scripts/import-courses.mjs",
     "build:web": "tsc -b && vite build --mode web"
   },
   "dependencies": {
