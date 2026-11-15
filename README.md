@@ -45,9 +45,14 @@ npm run build:web   # → dist-web/index.html
 
 ```
 api/ai.ts                    AI呼び出しの中継（Vercel Functions）。APIキーはここだけ
+data/courses.csv             授業データの元（スプレッドシートから書き出す。無ければ courses.json をそのまま使う）
+data/courses.template.csv    courses.csv の列の並びと書き方の例
+scripts/import-courses.mjs   courses.csv → src/data/courses.json の変換と入力チェック（build 前に自動実行）
+docs/授業データの入れ方.md     無料の道具だけで授業データを入れる手順とAIへの指示文
 src/
   types.ts                   型定義
-  data/courses.json          授業データ（運営者が事前入力。今はダミー33件）
+  data/courses.json          授業データ（data/courses.csv から自動生成。今はダミー33件）
+  data/interests.json        興味タグの選択肢（画面と CSV チェックで共通）
   data/requirements.json     卒業要件（今はダミー値）
   lib/repository.ts          保存と読み込み ★Supabase移行時に差し替え
   lib/storage.ts             保存先（アーティファクト／localStorage／メモリを自動で切り替え）
@@ -93,7 +98,9 @@ src/assets/howto.svg         スクショの撮り方の見本
 
 ## 授業データと卒業要件の入れ方
 
-- `src/data/courses.json` に授業カタログから1授業1オブジェクトで入れます（項目は `src/types.ts` の Course）。分からない項目は `null` にすると「不明」と表示され、足切り条件では除外されません
+- 授業データは `data/courses.csv`（スプレッドシートから書き出した CSV）で管理します。`npm run build` の前に `scripts/import-courses.mjs` が自動で走り、`src/data/courses.json` に変換します（手動なら `npm run import:courses`）。入力ミスがあると行番号つきで表示してビルドを止めます。`data/courses.csv` が無いあいだは今の `courses.json` がそのまま使われます
+- 無料の道具だけで入れる手順（コピー → AI チャットで CSV 化 → GitHub にアップロード）は [docs/授業データの入れ方.md](docs/授業データの入れ方.md) にあります。列の並びの例は `data/courses.template.csv`
+- 空欄の足切り項目は「不明」と表示され、足切り条件では除外されません
 - `src/data/requirements.json` に学科ごと・区分ごとの必要単位数を入れます。今の数字はダミーなので、必ず履修要項で確認した値に置き換えてください
 - `crobas_*` の項目は、クロバスの利用規約の確認と運営者の許可が取れるまでダミー値のままにしてください
 - 学籍番号の採番ルールが分かったら `src/lib/studentId.ts` の DEPARTMENT_CODES と読み取り方を直してください
